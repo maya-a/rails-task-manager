@@ -1,3 +1,37 @@
 // Place all the styles related to the tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  margin-top: 5vh;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid rgb(240, 240, 240);
+}
+
+#task_details, #task_title {
+  width: 50%;
+}
+
+label {
+  font-weight: bold;
+}
